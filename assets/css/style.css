@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 85%;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EBE4;
+}
+
+.main_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7em;
+}
+
+.main_txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.96em;
+}
+
+.img_main {
+    border-radius: 5%;
+    max-width: 17%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+aside {
+    display: flex;
+    flex-basis: 15%;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    width:300px;
+}
+
+.current_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    border-color: gray;
+    border-bottom: solid;
+    border-width: 0.5px;
+    padding: 13px 0px 13px 0px;
+}
+
+.current_img_usuario {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.current_estado_usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fw_iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #a8a8a8;
+}
+
+.fa-message {
+    margin: 0px 10px 0px 0px;
+}
+
+.fa-square {
+    color:#4bff1a;
+}
+
+
+.font_usuario{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.96em;
+}
+
+.font_status_usuario{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6em;
+    color:gray;
+}
+
+.font_status {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.84em;
+}  
+
+.btn_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    border-color: gray;
+    border-bottom: solid;
+    border-width: 0.5px;
+    padding: 41.5px 0px 41.5px 0px;
+}
+
+.btn_NuevoChat {
+    background-color: #ae9ed5;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn_NuevoChat:hover {
+    background-color: #CDC3E6;
+}
+
+.btn_NuevoChat:focus {
+    background-color: #E8EBE4;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border-color: gray;
+    border-bottom: solid;
+    border-width: 0.5px; 
+    padding: 14px 0px 14px 0px;
+}
+
+.img_usuario {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px 0px 20px;
+}
+
